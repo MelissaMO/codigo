@@ -20,9 +20,35 @@ git config --global user.email "email"
 git config --global user.name "username"
 ```
 
-* Sirve para poder empezar a usar el control de versiones(git) 
+* Sirve para poder empezar a usar el control de versiones(git) en nuestra carpeta
+
+* Esto es solo una vez por carpeta
 
 ```bash
-git config --global user.name "username"
+git init
+```
+
+* Para ver el estado de nuestros cambios
+
+```bash
+git status
+```
+
+* Agrega comentarios a la memoria de la pc
+
+```bash
+git add
+```
+
+* Crea el registro de los cambios realizados
+
+```bash
+git commit -m "comentario"
+```
+
+* Para ver el historial de commit
+
+```bash
+git log
 ```
 
