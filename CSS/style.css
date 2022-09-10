@@ -26,10 +26,10 @@ h1[role="titulo"]{
 }
 
 .big_table{
-    font-size: 30px;
+    font-size: 20px;
     border: 1px solid #ccc;
 }
 
 .big_table th, td {
-    padding: 20px;
+    padding: 10px;
 }
