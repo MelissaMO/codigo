@@ -1,0 +1,26 @@
+/* asterisco significa TODO*/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.padre {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    /*Permite alinear elementos de lado horizontal*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hijo {
+    width: 25%;
+    height: 100px;
+    border: solid 1px green;
+    background-color: #fff;
+}

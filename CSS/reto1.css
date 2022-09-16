@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-image {
+    background: url("../images/image-product-desktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.contet {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

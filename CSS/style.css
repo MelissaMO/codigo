@@ -8,9 +8,13 @@ h1{
     background-color: aqua;
     padding: 20px;
     text-align: center;
-    font-size: 3rem;
+    font-family: 'Nabla', cursive;
+    
 }
 
+h2{
+    font-family: 'Oswald', sans-serif;
+}
 
 /*h1[role="titulo"]{
     color: black;
